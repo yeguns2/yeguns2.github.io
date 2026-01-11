@@ -5,7 +5,7 @@ import { ArrowUpRight } from "lucide-react";
 export default function ProjectCard({ project }) {
   return (
     <motion.article
-      className="projectCard"
+      className={`projectCard ${project.mediaClass || ""}`}
       whileHover={{ y: -6 }}
       transition={{ type: "spring", stiffness: 260, damping: 18 }}
     >

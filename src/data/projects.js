@@ -12,7 +12,9 @@ export const projects = [
     badges: ["SystemVerilog", "MicroBlaze SoC", "AXI4", "DDR/BRAM", "HDMI"],
     image: "/assets/schoolrun.gif",
     repoUrl: "https://github.com/yeguns2/School_Run_FPGA",
-  },
+    mediaClass: "mediaSchoolRun",
+    
+},
   {
     title: "FPGA MNIST CNN Accelerator",
     subtitle: "Independent Project · SystemVerilog",

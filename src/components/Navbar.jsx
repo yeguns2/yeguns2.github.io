@@ -4,9 +4,12 @@ import { Download, Github, Linkedin, Mail } from "lucide-react";
 
 const nav = [
   { id: "projects", label: "Projects" },
+  { id: "experience", label: "Experience" },
+  { id: "education", label: "Education" },
   { id: "skills", label: "Skills" },
   { id: "team", label: "Team Projects" },
 ];
+
 
 function scrollToId(id) {
   const el = document.getElementById(id);
