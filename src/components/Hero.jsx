@@ -55,7 +55,7 @@ export default function Hero() {
                 <a className="cta" href="#projects">
                   View Projects <ArrowDown size={18} />
                 </a>
-                <a className="cta ghost" href="/assets/Yegun_Shim_Resume.pdf" target="_blank" rel="noreferrer">
+                <a className="cta ghost" href="/assets/Yegun_Shim_Resume_f.pdf" target="_blank" rel="noreferrer">
                   Resume (PDF)
                 </a>
               </div>
