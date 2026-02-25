@@ -4,7 +4,7 @@ export const education = [
     degree: "B.S. Computer Engineering (Undergraduate)",
     dates: "Expected May 2027",
     details: [
-      "Interests: Embedded Systems, System-on-Chip, FPGA, Deep Learning Hardware",
+      "Interests: FPGAs, Computer Architecture, Embedded Systems, Digital Signal Processing (DSP), SoC Design, ML Hardware",
     ],
   },
 ];
