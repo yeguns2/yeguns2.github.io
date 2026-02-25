@@ -38,7 +38,7 @@ export default function Hero() {
               </p>
 
               <p className="heroDesc">
-                Interested in <strong>Embedded Systems</strong>, <strong>SoC Design</strong>, <strong>FPGA Development</strong>, and{" "}
+                Interested in <strong>FPGA Development</strong>, <strong>SoC Design</strong>, <strong>Embedded Systems</strong>, and{" "}
                 <strong>Deep Learning Hardware</strong>. I like shipping real systems from RTL and AXI-based IP to software
                 integration and performance tuning on hardware.
               </p>
