@@ -42,17 +42,17 @@ export const teamProjects = [
     title: "3D Neuron Segmentation Platform",
     subtitle: "KSEA Neuro · Team Project",
     description:
-      "End-to-end 3D neuron segmentation pipeline that takes user-uploaded raw volumes, runs UNet-based inference (LSD + affinity), and visualizes results in Neuroglancer.",
+      "Developed a web-facing 3D neuron segmentation service that ingests user-uploaded volumes, executes UNet inference with LSD + affinity supervision, and delivers interactive Neuroglancer visualization. (In active development)",
     highlights: [
-      "UNet training/inference pipeline using LSD and affinity targets for robust instance segmentation",
-      "Backend service for upload → job scheduling → inference → artifact storage",
-      "Neuroglancer-based viewer workflow to preview and download segmentations",
+      "Implemented and maintained the UNet inference/training workflow with LSD + affinity targets to improve boundary fidelity and reduce merge/split errors.",
+      "Developed backend infrastructure for dataset ingestion, asynchronous inference execution, and persistent storage of segmentation artifacts.",
+      "Integrated Neuroglancer for interactive review and delivery of raw volumes and segmentation outputs.",
     ],
     badges: [
       "PyTorch",
-      "3D UNet",
+      "3D U-Net",
       "LSD",
-      "Affinity Graph",
+      "Affinity",
       "Gunpowder/Funlib",
       "Neuroglancer",
       "Backend",
