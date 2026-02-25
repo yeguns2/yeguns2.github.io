@@ -4,7 +4,7 @@ import Hero from "./components/Hero.jsx";
 import Section from "./components/Section.jsx";
 import ProjectCard from "./components/ProjectCard.jsx";
 import Footer from "./components/Footer.jsx";
-import { projects } from "./data/projects.js";
+import { projects, teamProjects } from "./data/projects.js";
 import { experience } from "./data/experience.js";
 import { education } from "./data/education.js";
 
@@ -43,14 +43,11 @@ export default function App() {
 
         <Section 
           id="team" 
-          title="Team Projects" 
-          //subtitle="Coming soon—collaborative projects with clearly scoped personal contributions."
-        >
-          <div className="emptyCard">
-            <div className="emptyTitle">Coming soon</div>
-            <p className="emptyText">
-              
-            </p>
+          title="Team Projects">
+          <div className="projectGrid">
+            {teamProjects.map((p) => (
+              <ProjectCard key={p.title} project={p} />
+            ))}
           </div>
         </Section>
 
